@@ -1,4 +1,4 @@
-ame: CI/CD Pipeline
+name: CI/CD Pipeline
  
 on:
   push:
@@ -17,3 +17,4 @@ jobs:
  
       - name: Execução de Testes
         run: echo "Rodando testes..."
+        
